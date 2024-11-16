@@ -1,0 +1,119 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 3px 6px -1px, rgba(0, 0, 0, 0.05) 0px 2px 4px -1px;
+    padding: 24px;
+    margin-top: 16px;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.card-id {
+    color: #808080;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.card-user {
+    position: relative;
+    margin-right: 12px;
+}
+
+.card-user-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    width: 15px;
+    background-color: #b3541e;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 6px;
+}
+
+.active-user {
+    position: absolute;
+    background-color: #2ecc71;
+    height: 12px;
+    width: 12px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50%;
+    border: 2px solid #f9f9f9;
+}
+
+.inactive-user {
+    position: absolute;
+    background-color: #d3d3d3;
+    height: 12px;
+    width: 12px;
+    bottom: -6px;
+    right: -6px;
+    border-radius: 50%;
+    border: 2px solid #f9f9f9;
+}
+
+.card-body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom: 16px;
+}
+
+.card-body img {
+    height: 18px;
+    width: auto;
+    margin-right: 8px;
+    margin-top: 0;
+}
+
+.card-body span {
+    width: 85%;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.card-footer-priority {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28px;
+    width: 28px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    margin-bottom: 4px;
+    margin-right: 12px;
+}
+
+.card-footer-priority img {
+    height: 16px;
+}
+
+.card-footer-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}

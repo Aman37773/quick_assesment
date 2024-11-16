@@ -1,0 +1,70 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.display-container {
+    position: relative;
+}
+
+.display {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin: 20px 0 20px 50px;
+}
+
+.display img {
+    height: 18px;
+}
+
+.display span {
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 8px;
+}
+
+.display-settings {
+    position: absolute;
+    background-color: #fafafa;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    top: 55px;
+    left: 50px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 8px 0px;
+    padding: 10px 15px;
+    z-index: 100;
+}
+
+.display-setting {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    width: 220px;
+}
+
+.display-setting div {
+    font-size: 13px;
+    font-weight: 500;
+    color: #707070;
+}
+
+.display-setting select {
+    font-size: 13px;
+    font-weight: 500;
+    color: #333333;
+    padding: 3px 8px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    background-color: #fafafa;
+    width: 110px;
+}

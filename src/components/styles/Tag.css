@@ -1,0 +1,27 @@
+.card-tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #dcdcdc;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin-right: 4px;
+    margin-bottom: 6px;
+    height: 22px;
+}
+
+.card-tag span {
+    height: 14px;
+    width: 14px;
+    background-color: #aab1b8;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.card-tag div {
+    width: fit-content;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6d7278;
+}
